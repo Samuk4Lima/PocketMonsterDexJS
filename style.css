@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(31, 156, 156);
+}
+
+.main {
+    background-color: beige;
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 30px 2%;
+    
+}
+
+.main h2{
+    font-size: xx-large;
+    color: #ef5350;
+    text-align: center;
+}
+
+.pokemon-boxes{
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.poke-box{
+    border-radius: 10px;
+    width: 29%;
+    margin-top: 2%;
+    background-color: rgb(228, 228, 228);
+    margin-right: 2%;
+    
+}
+
+.poke-box img{
+    width: 100%;
+}
+
+.poke-box p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .poke-box{width: 100%; text-align: center;}
+    .poke-box img{
+        max-width: 300px;
+    }
+}
+
+input{
+    height: 30px;
+    width: 30%;
+    margin: 0 0 0 34%;
+    
+}
