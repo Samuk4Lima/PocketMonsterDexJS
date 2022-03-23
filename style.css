@@ -15,9 +15,8 @@ body {
   padding: 30px 2%;
 }
 
-.main .symbol {
-  width: 5rem;
-  margin: 0% 0% 0% 20%;
+.main .nome {
+  margin: 0% 0% 0% 30%;
 }
 
 .main input {
